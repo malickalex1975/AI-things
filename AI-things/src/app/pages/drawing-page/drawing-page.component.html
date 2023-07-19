@@ -1,0 +1,17 @@
+<p>{{title |translate|async}}</p>
+
+<input
+  type="text"
+  [(ngModel)]="prompt"
+  [disabled]="isMicrophoneBusy"
+  (input)="setPrompt()"
+  placeholder="{{ placeholder }}"
+/>
+
+<img
+  src="{{ src }}"
+  alt="{{ alt$|async }}"
+  class="drawing-image"
+  [class.invisible]="!isVisible"
+/>
+<app-microphone></app-microphone>

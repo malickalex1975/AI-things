@@ -1,0 +1,20 @@
+.button{
+    position: fixed;
+    top:10px;
+    right:10px;
+    width:30px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: .2);
+    color:#090;
+    font-size: 20px;
+    font-family:"Segoe Print";
+    border: 2px solid #eee;
+    border-radius: 5px;
+    cursor:pointer;
+    &:hover{
+        box-shadow: 3px 3px 7px rgba($color: #000000, $alpha: .5);
+    }
+}

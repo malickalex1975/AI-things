@@ -1,0 +1,5 @@
+<div class="container">
+  <p class="warning-title">{{ warningTitle | translate | async }}: /{{ path }}</p>
+  <div class="warning">{{warning}}</div>
+  <div [routerLink]="['/']" class="warning-start">{{warningStart | translate | async}}</div>
+</div>

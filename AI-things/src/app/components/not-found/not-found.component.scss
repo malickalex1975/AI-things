@@ -1,0 +1,30 @@
+.container{
+width: 100vw;
+height:100vh;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.warning-title{
+font-size: 20px;
+font-family: monospace;
+color:#99ddff;
+}
+.warning-start{
+font-size: 24px;
+font-family: monospace;
+color:#99ffdd;
+cursor: pointer;
+&:hover{
+    color:#77ffbb; 
+    transform: scale(1.05);
+}
+}
+
+.warning{
+    font-size: 100px;
+    font-family: monospace;
+    color:#99ddff;
+}

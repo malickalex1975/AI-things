@@ -1,0 +1,18 @@
+.microphone{
+    width:60px;
+    height:60px;
+      background-image: url(../../../assets/images/microphone.png);
+      background-size: cover;
+      cursor: pointer;
+      opacity: .5;
+      &:hover{
+        opacity:.8
+      }
+}
+.passive{
+  opacity:0.2;
+  cursor: auto;
+  &:hover{
+    opacity:.2
+  }
+}
